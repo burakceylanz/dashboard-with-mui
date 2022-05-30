@@ -1,0 +1,101 @@
+.sidebar{
+    flex: 1;
+    border-right: 0.5px solid #ccb4b4;
+    min-height: 100vh;
+    .top{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         .linktorouter{
+            text-decoration: none;
+        }
+     
+        .logo{
+            font-size:20px;
+            font-weight: 900;
+            color: #6439ff;
+            display:flex;
+            .list{
+                border: 0;
+                color: #6439ff;
+                background-color: transparent;
+                width: 32px;
+                cursor: pointer;
+            }
+        }
+    }
+    hr{
+        height: 0;
+        border: 0.5px solid #ccb4b4;
+    }
+
+    .center{
+        padding-left: 10px;
+
+        ul{
+            list-style:none;
+            margin: 0;
+            padding: 0;
+            .title{
+                font-size: 10px;
+                font-weight: bold;
+                color: #999;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            .linktorouter{
+                text-decoration: none;
+            }
+        }
+        li{
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            cursor: pointer;
+            &:hover{
+                background-color: #ece8ff;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+            }
+            .icon{
+                font-size: 18px;
+                color: #7451f8;
+            }
+
+            span{
+                font-size: 13px;
+                font-weight: 600;
+                color: #888;
+                margin-left: 10px;
+            }
+        }
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        .coloroptions{
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid #7451f8;
+            cursor: pointer;
+            margin: 5px;
+
+            &:nth-child(1){
+                background-color: whitesmoke;
+            }
+            &:nth-child(2){
+                background-color: #333;
+            }
+        }
+    }
+}
+.sidebar.closemenu {
+width: 44px;
+flex: none;
+overflow: hidden;
+animation: bounce; /* referring directly to the animation's @keyframe declaration */
+animation-duration: 2s; /* don't forget to set a duration! */
+}

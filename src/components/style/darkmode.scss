@@ -1,0 +1,114 @@
+.App.dark{
+    background-color: #222;
+    .sidebar .top .logo{
+        color:azure;
+    }
+    .navbar {
+            .search{
+                    background-color: azure;
+            }
+            .items{
+            color: azure;
+                .item{
+                color:azure;
+                .notificationbar{
+                    background-color: #222;
+                    color:white;
+                    border:1px solid #fff;
+    
+                    @keyframes example {
+                     0% {
+                         opacity: 0;
+                     }
+                     100%{
+                         opacity: 1;
+                     }
+                      }
+                      .notli{
+                          list-style: none;
+                          padding: 10px;
+                          display: block;
+                          align-items: center;
+                      }
+                      .notlidiv{
+                          align-items: center;
+                          display: flex;
+                      }
+                }
+                .icon{
+                    color:azure;
+                }
+            }
+        }
+    }
+    .widgets{
+        .counter{
+            color:azure;
+            font-weight: 700;
+        }
+        span.link{
+            color:azure;
+        }
+    }
+    .charts{
+        .featured{
+            box-shadow: 2px 0px 3px 2px #d8c7c7;
+        }
+        .chart{
+            box-shadow: 2px 0px 3px 2px #d8c7c7;
+        }
+        .amount{
+            color:azure;
+            font-weight: 700;
+        }
+    }
+    .listContainer{
+        box-shadow: 2px 0px 3px 2px #d8c7c7;
+    }
+    .MuiDataGrid-root.css-1xy1myn-MuiDataGrid-root{
+        color:azure;
+        .MuiTablePagination-selectLabel {
+            color:azure;
+        }
+        .MuiTablePagination-select{
+            color:azure;
+        }
+        .MuiTablePagination-displayedRows{
+            color:azure;
+        }
+        .css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon{
+            color:azure;
+        }
+        .MuiButtonBase-root{
+            color:azure;
+        }
+    }
+    .newContainer{
+        .top{
+            box-shadow: 2px 0px 3px 2px #d8c7c7;
+        }
+        form{
+            color:azure;
+        }
+        .bottom{
+            box-shadow: 2px 0px 3px 2px #d8c7c7;
+        }
+    }
+    .singleContainer{
+        .top{
+            .left{
+                box-shadow: 2px 0px 3px 2px #d8c7c7;
+                color:azure;
+                .details{
+                    .title{
+                        color:azure;
+                        font-weight: 700;
+                    }    
+                }
+            }
+            .right{
+                box-shadow: 2px 0px 3px 2px #d8c7c7;
+            }
+        }
+    }
+}
